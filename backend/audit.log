@@ -1,0 +1,6 @@
+[2025-12-07T19:10:47.917Z] USER_REGISTERED - User: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 - {"userAddress":"0x70997970C51812dc3A010C7d01b50e0d17dc79C8","name":"Poulomi Sen","role":"0"}
+[2025-12-07T19:12:56.797Z] USER_REGISTERED - User: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 - {"userAddress":"0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC","name":"Krishna Sen","role":"0"}
+[2025-12-07T19:28:19.978Z] USER_REGISTERED - User: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 - {"userAddress":"0x70997970C51812dc3A010C7d01b50e0d17dc79C8","name":"Poulomi Sen","role":"0"}
+[2025-12-07T19:44:20.745Z] LAND_REGISTERED - User: 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 - {"landId":1,"surveyNumber":"SN12345","ipfsHash":"QmfJBGjTKvWobWXQr8QCeWZCYze5kEpMsis6VEro35LkYU"}
+[2025-12-07T19:45:21.910Z] USER_REGISTERED - User: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 - {"userAddress":"0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC","name":"Mr Khan","role":"1"}
+[2025-12-07T20:06:54.513Z] LAND_REGISTERED - User: 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 - {"landId":2,"surveyNumber":"123","ipfsHash":"QmRyMF5mDmEPEoJnA1rFvxU4zbuoJ23beRRUyGtLTRJHok"}

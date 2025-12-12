@@ -32,14 +32,15 @@ const upload = multer({
 });
 
 // IPFS Configuration
-const ipfs = create({ 
-    host: 'localhost', 
-    port: 5001, 
-    protocol: 'http' 
+const ipfs = create({
+  host: "127.0.0.1",  // Force IPv4
+  port: process.env.IPFS_PORT,
+  protocol: process.env.IPFS_PROTOCOL
 });
 
+
 // Web3 Configuration
-const web3 = new Web3(process.env.BLOCKCHAIN_URL || 'http://localhost:8545');
+const web3 = new Web3(process.env.BLOCKCHAIN_URL || 'http://127.0.0.1:8545');
 const contractAddress = process.env.CONTRACT_ADDRESS;
 const contractABI = JSON.parse(fs.readFileSync('./LandRegistryABI.json', 'utf8'));
 const contract = new web3.eth.Contract(contractABI, contractAddress);
